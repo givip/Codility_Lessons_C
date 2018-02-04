@@ -9,4 +9,5 @@
 
 ### Lesson 3 - Time Complexity
 1. Tape Equilibrium - 100% - O(2n)
+2. FrogJmp - 100% - O(1)
 
