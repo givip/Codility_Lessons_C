@@ -28,6 +28,8 @@
 		57422FE220271550000B17BE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		57422FE920271577000B17BE /* TapeEquilibrium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapeEquilibrium.h; sourceTree = "<group>"; };
 		57422FEA20271577000B17BE /* TapeEquilibrium.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TapeEquilibrium.c; sourceTree = "<group>"; };
+		57422FEF20272E73000B17BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		57422FF020272E73000B17BE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 		57422FE120271550000B17BE /* Codility_Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				57422FF020272E73000B17BE /* LICENSE */,
+				57422FEF20272E73000B17BE /* README.md */,
 				57422FEC20272A33000B17BE /* Lesson 3 */,
 				57422FE220271550000B17BE /* main.c */,
 			);
