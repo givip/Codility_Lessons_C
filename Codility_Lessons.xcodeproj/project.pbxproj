@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		57422FE320271550000B17BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 57422FE220271550000B17BE /* main.c */; };
-		57422FEB20271577000B17BE /* TapeEquilibrium.c in Sources */ = {isa = PBXBuildFile; fileRef = 57422FEA20271577000B17BE /* TapeEquilibrium.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +29,8 @@
 		57422FEA20271577000B17BE /* TapeEquilibrium.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TapeEquilibrium.c; sourceTree = "<group>"; };
 		57422FEF20272E73000B17BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		57422FF020272E73000B17BE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		57422FF22027305F000B17BE /* BinaryGap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryGap.h; sourceTree = "<group>"; };
+		57422FF32027305F000B17BE /* BinaryGap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryGap.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			children = (
 				57422FF020272E73000B17BE /* LICENSE */,
 				57422FEF20272E73000B17BE /* README.md */,
+				57422FF12027304F000B17BE /* Lesson 1 */,
 				57422FEC20272A33000B17BE /* Lesson 3 */,
 				57422FE220271550000B17BE /* main.c */,
 			);
@@ -77,6 +79,15 @@
 				57422FEA20271577000B17BE /* TapeEquilibrium.c */,
 			);
 			path = "Lesson 3";
+			sourceTree = "<group>";
+		};
+		57422FF12027304F000B17BE /* Lesson 1 */ = {
+			isa = PBXGroup;
+			children = (
+				57422FF22027305F000B17BE /* BinaryGap.h */,
+				57422FF32027305F000B17BE /* BinaryGap.c */,
+			);
+			path = "Lesson 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57422FEB20271577000B17BE /* TapeEquilibrium.c in Sources */,
 				57422FE320271550000B17BE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
