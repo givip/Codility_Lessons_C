@@ -33,6 +33,8 @@
 		57422FF32027305F000B17BE /* BinaryGap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryGap.c; sourceTree = "<group>"; };
 		57422FF82027414F000B17BE /* OddOccurrencesInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OddOccurrencesInArray.h; sourceTree = "<group>"; };
 		57422FF92027414F000B17BE /* OddOccurrencesInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OddOccurrencesInArray.c; sourceTree = "<group>"; };
+		57422FFB20275679000B17BE /* CyclicRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyclicRotation.h; sourceTree = "<group>"; };
+		57422FFC20275679000B17BE /* CyclicRotation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CyclicRotation.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,8 @@
 			children = (
 				57422FF82027414F000B17BE /* OddOccurrencesInArray.h */,
 				57422FF92027414F000B17BE /* OddOccurrencesInArray.c */,
+				57422FFB20275679000B17BE /* CyclicRotation.h */,
+				57422FFC20275679000B17BE /* CyclicRotation.c */,
 			);
 			path = "Lesson 2";
 			sourceTree = "<group>";
@@ -274,6 +278,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C55XMLS7R2;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,6 +288,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C55XMLS7R2;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
