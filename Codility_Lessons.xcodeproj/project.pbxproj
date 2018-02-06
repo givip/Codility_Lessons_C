@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		57422FE320271550000B17BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 57422FE220271550000B17BE /* main.c */; };
+		5796A2C72028E180004FA18E /* PermMissingElem.c in Sources */ = {isa = PBXBuildFile; fileRef = 574230032027758E000B17BE /* PermMissingElem.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		57422FFC20275679000B17BE /* CyclicRotation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CyclicRotation.c; sourceTree = "<group>"; };
 		57422FFE202770CF000B17BE /* FrogJmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrogJmp.h; sourceTree = "<group>"; };
 		57422FFF202770CF000B17BE /* FrogJmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FrogJmp.c; sourceTree = "<group>"; };
+		574230022027758E000B17BE /* PermMissingElem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermMissingElem.h; sourceTree = "<group>"; };
+		574230032027758E000B17BE /* PermMissingElem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermMissingElem.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				57422FEA20271577000B17BE /* TapeEquilibrium.c */,
 				57422FFE202770CF000B17BE /* FrogJmp.h */,
 				57422FFF202770CF000B17BE /* FrogJmp.c */,
+				574230022027758E000B17BE /* PermMissingElem.h */,
+				574230032027758E000B17BE /* PermMissingElem.c */,
 			);
 			path = "Lesson 3";
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57422FE320271550000B17BE /* main.c in Sources */,
+				5796A2C72028E180004FA18E /* PermMissingElem.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

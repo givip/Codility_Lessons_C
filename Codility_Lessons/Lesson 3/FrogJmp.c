@@ -1,5 +1,6 @@
 //
 //  FrogJmp.c
+//  Lesson 3
 //  Codility_Lessons
 //
 //  Created by Givi Pataridze on 04.02.2018.
