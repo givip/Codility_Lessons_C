@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		57422FE320271550000B17BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 57422FE220271550000B17BE /* main.c */; };
-		5796A2C72028E180004FA18E /* PermMissingElem.c in Sources */ = {isa = PBXBuildFile; fileRef = 574230032027758E000B17BE /* PermMissingElem.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		57324B2F202A246100B462B8 /* PermCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermCheck.h; sourceTree = "<group>"; };
+		57324B30202A246100B462B8 /* PermCheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermCheck.c; sourceTree = "<group>"; };
 		57422FDF20271550000B17BE /* Codility_Lessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Lessons; sourceTree = BUILT_PRODUCTS_DIR; };
 		57422FE220271550000B17BE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		57422FE920271577000B17BE /* TapeEquilibrium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapeEquilibrium.h; sourceTree = "<group>"; };
@@ -53,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57324B2E202A244600B462B8 /* Lesson 4 */ = {
+			isa = PBXGroup;
+			children = (
+				57324B2F202A246100B462B8 /* PermCheck.h */,
+				57324B30202A246100B462B8 /* PermCheck.c */,
+			);
+			path = "Lesson 4";
+			sourceTree = "<group>";
+		};
 		57422FD620271550000B17BE = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 				57422FF12027304F000B17BE /* Lesson 1 */,
 				57422FF72027412E000B17BE /* Lesson 2 */,
 				57422FEC20272A33000B17BE /* Lesson 3 */,
+				57324B2E202A244600B462B8 /* Lesson 4 */,
 				57422FE220271550000B17BE /* main.c */,
 			);
 			path = Codility_Lessons;
@@ -173,7 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57422FE320271550000B17BE /* main.c in Sources */,
-				5796A2C72028E180004FA18E /* PermMissingElem.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

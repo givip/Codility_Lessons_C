@@ -10,4 +10,9 @@
 ### Lesson 3 - Time Complexity
 1. Tape Equilibrium - 100% - O(2n)
 2. FrogJmp - 100% - O(1)
+2. PermMissingElem - 100% - O(n)
+
+### Lesson 4 - Counting Elements
+1. PermCheck - 100% - O(n)
+
 
