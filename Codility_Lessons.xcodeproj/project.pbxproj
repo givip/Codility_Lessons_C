@@ -41,6 +41,8 @@
 		57422FFF202770CF000B17BE /* FrogJmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FrogJmp.c; sourceTree = "<group>"; };
 		574230022027758E000B17BE /* PermMissingElem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermMissingElem.h; sourceTree = "<group>"; };
 		574230032027758E000B17BE /* PermMissingElem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermMissingElem.c; sourceTree = "<group>"; };
+		57B3DB98202B4BFD004A05F5 /* FrogRiverOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrogRiverOne.h; sourceTree = "<group>"; };
+		57B3DB99202B4BFD004A05F5 /* FrogRiverOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FrogRiverOne.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 			children = (
 				57324B2F202A246100B462B8 /* PermCheck.h */,
 				57324B30202A246100B462B8 /* PermCheck.c */,
+				57B3DB98202B4BFD004A05F5 /* FrogRiverOne.h */,
+				57B3DB99202B4BFD004A05F5 /* FrogRiverOne.c */,
 			);
 			path = "Lesson 4";
 			sourceTree = "<group>";
