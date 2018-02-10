@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		572DA996202E25CB001F0A47 /* MissingInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissingInteger.h; sourceTree = "<group>"; };
+		572DA997202E25CB001F0A47 /* MissingInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MissingInteger.c; sourceTree = "<group>"; };
 		57324B2F202A246100B462B8 /* PermCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermCheck.h; sourceTree = "<group>"; };
 		57324B30202A246100B462B8 /* PermCheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermCheck.c; sourceTree = "<group>"; };
 		57422FDF20271550000B17BE /* Codility_Lessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Lessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,8 @@
 				57324B30202A246100B462B8 /* PermCheck.c */,
 				57B3DB98202B4BFD004A05F5 /* FrogRiverOne.h */,
 				57B3DB99202B4BFD004A05F5 /* FrogRiverOne.c */,
+				572DA996202E25CB001F0A47 /* MissingInteger.h */,
+				572DA997202E25CB001F0A47 /* MissingInteger.c */,
 			);
 			path = "Lesson 4";
 			sourceTree = "<group>";

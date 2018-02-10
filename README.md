@@ -14,5 +14,6 @@
 
 ### Lesson 4 - Counting Elements
 1. PermCheck - 100% - O(n)
-
+2. FrogRiverOne - 100% - O(n)
+3. MissingInteger - 100% - O(n)
 

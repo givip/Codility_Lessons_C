@@ -1,5 +1,6 @@
 //
 //  FrogRiverOne.c
+//  Lesson 4
 //  Codility_Lessons
 //
 //  Created by Givi Pataridze on 07.02.2018.
@@ -15,8 +16,7 @@ int solution(int X, int A[], int N) {
 	
 	int counter = 0;
 	for (int i=0; i<N; i++) {
-		if (B[A[i]] == 0)
-		{
+		if (B[A[i]] == 0) {
 			B[A[i]] = 1;
 			counter++;
 		}
