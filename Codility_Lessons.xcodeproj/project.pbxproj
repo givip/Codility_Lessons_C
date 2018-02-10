@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572DA99F202EE01B001F0A47 /* helpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 572DA99E202EE01B001F0A47 /* helpers.c */; };
 		57422FE320271550000B17BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 57422FE220271550000B17BE /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		572DA996202E25CB001F0A47 /* MissingInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissingInteger.h; sourceTree = "<group>"; };
 		572DA997202E25CB001F0A47 /* MissingInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MissingInteger.c; sourceTree = "<group>"; };
+		572DA999202ED64D001F0A47 /* MaxCounters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxCounters.h; sourceTree = "<group>"; };
+		572DA99A202ED64D001F0A47 /* MaxCounters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxCounters.c; sourceTree = "<group>"; };
+		572DA99D202EE01B001F0A47 /* helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		572DA99E202EE01B001F0A47 /* helpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helpers.c; sourceTree = "<group>"; };
 		57324B2F202A246100B462B8 /* PermCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermCheck.h; sourceTree = "<group>"; };
 		57324B30202A246100B462B8 /* PermCheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermCheck.c; sourceTree = "<group>"; };
 		57422FDF20271550000B17BE /* Codility_Lessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Lessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		572DA99C202EDFF3001F0A47 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				572DA99D202EE01B001F0A47 /* helpers.h */,
+				572DA99E202EE01B001F0A47 /* helpers.c */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		57324B2E202A244600B462B8 /* Lesson 4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +81,8 @@
 				57B3DB99202B4BFD004A05F5 /* FrogRiverOne.c */,
 				572DA996202E25CB001F0A47 /* MissingInteger.h */,
 				572DA997202E25CB001F0A47 /* MissingInteger.c */,
+				572DA999202ED64D001F0A47 /* MaxCounters.h */,
+				572DA99A202ED64D001F0A47 /* MaxCounters.c */,
 			);
 			path = "Lesson 4";
 			sourceTree = "<group>";
@@ -92,6 +108,7 @@
 			children = (
 				57422FF020272E73000B17BE /* LICENSE */,
 				57422FEF20272E73000B17BE /* README.md */,
+				572DA99C202EDFF3001F0A47 /* Helpers */,
 				57422FF12027304F000B17BE /* Lesson 1 */,
 				57422FF72027412E000B17BE /* Lesson 2 */,
 				57422FEC20272A33000B17BE /* Lesson 3 */,
@@ -192,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57422FE320271550000B17BE /* main.c in Sources */,
+				572DA99F202EE01B001F0A47 /* helpers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
