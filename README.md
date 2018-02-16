@@ -16,4 +16,9 @@
 1. PermCheck - 100% - O(n)
 2. FrogRiverOne - 100% - O(n)
 3. MissingInteger - 100% - O(n)
+4. MaxCounters - 100% - O(n+m)
+
+### Lesson 5 - Prefix Sums
+1. CountDiv - 100% - O(1)
+2. 
 

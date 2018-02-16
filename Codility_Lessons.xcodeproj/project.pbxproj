@@ -30,6 +30,8 @@
 		572DA99A202ED64D001F0A47 /* MaxCounters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxCounters.c; sourceTree = "<group>"; };
 		572DA99D202EE01B001F0A47 /* helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
 		572DA99E202EE01B001F0A47 /* helpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helpers.c; sourceTree = "<group>"; };
+		572DA9A1202F3B8D001F0A47 /* CountDiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDiv.h; sourceTree = "<group>"; };
+		572DA9A2202F3B8D001F0A47 /* CountDiv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CountDiv.c; sourceTree = "<group>"; };
 		57324B2F202A246100B462B8 /* PermCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermCheck.h; sourceTree = "<group>"; };
 		57324B30202A246100B462B8 /* PermCheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermCheck.c; sourceTree = "<group>"; };
 		57422FDF20271550000B17BE /* Codility_Lessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codility_Lessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,8 @@
 		57422FFF202770CF000B17BE /* FrogJmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FrogJmp.c; sourceTree = "<group>"; };
 		574230022027758E000B17BE /* PermMissingElem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermMissingElem.h; sourceTree = "<group>"; };
 		574230032027758E000B17BE /* PermMissingElem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PermMissingElem.c; sourceTree = "<group>"; };
+		57459DD1203367480086273E /* PassingCars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassingCars.h; sourceTree = "<group>"; };
+		57459DD2203367480086273E /* PassingCars.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassingCars.c; sourceTree = "<group>"; };
 		57B3DB98202B4BFD004A05F5 /* FrogRiverOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrogRiverOne.h; sourceTree = "<group>"; };
 		57B3DB99202B4BFD004A05F5 /* FrogRiverOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FrogRiverOne.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +74,17 @@
 				572DA99E202EE01B001F0A47 /* helpers.c */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		572DA9A0202F3B78001F0A47 /* Lesson 5 */ = {
+			isa = PBXGroup;
+			children = (
+				572DA9A1202F3B8D001F0A47 /* CountDiv.h */,
+				572DA9A2202F3B8D001F0A47 /* CountDiv.c */,
+				57459DD1203367480086273E /* PassingCars.h */,
+				57459DD2203367480086273E /* PassingCars.c */,
+			);
+			path = "Lesson 5";
 			sourceTree = "<group>";
 		};
 		57324B2E202A244600B462B8 /* Lesson 4 */ = {
@@ -113,6 +128,7 @@
 				57422FF72027412E000B17BE /* Lesson 2 */,
 				57422FEC20272A33000B17BE /* Lesson 3 */,
 				57324B2E202A244600B462B8 /* Lesson 4 */,
+				572DA9A0202F3B78001F0A47 /* Lesson 5 */,
 				57422FE220271550000B17BE /* main.c */,
 			);
 			path = Codility_Lessons;
