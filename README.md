@@ -20,5 +20,5 @@
 
 ### Lesson 5 - Prefix Sums
 1. CountDiv - 100% - O(1)
-2. 
+2. PassingCars - 100% - O(n)
 

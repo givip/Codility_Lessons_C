@@ -17,7 +17,7 @@ int solution(int A, int B, int K) {
 	int total = (B - A) / K;
 	
 	if (A % K == 0 || B % K < A % K)
-		return ++total;
+		total++;
 	
 	return total;
 }
