@@ -14,3 +14,9 @@ void print_array(int *A, int N) {
 	}
 	printf("\n");
 }
+
+int str_count(char *S) {
+    int i = 0;
+    while (S[i] != '\0') { i++; };
+    return i;
+}

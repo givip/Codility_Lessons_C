@@ -19,4 +19,12 @@
  */
 void print_array(int *A, int N);
 
+/**
+ String count
+
+ @param S Input string
+ @return length of given string
+ */
+int str_length(char *S);
+
 #endif /* helpers_h */

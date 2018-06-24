@@ -21,4 +21,5 @@
 ### Lesson 5 - Prefix Sums
 1. CountDiv - 100% - O(1)
 2. PassingCars - 100% - O(n)
+3. GenomicRangeQuery - 100% - O(m+n)
 
